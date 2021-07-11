@@ -1,0 +1,12 @@
+＃貨物によって生成
+＃コンパイルされたファイルと実行可能ファイルがあります
+/ターゲット/
+** /ターゲット/
+
+＃実行可能ファイルを作成する場合は、gitignoreからCargo.lockを削除し、ライブラリに残します
+＃詳細はこちらhttps://doc.rust-lang.org/cargo/guide/cargo-toml-vs-cargo-lock.html
+Cargo.lock
+
+＃これらはrustfmtによって生成されたバックアップファイルです
+** / * .rs.bk
+
